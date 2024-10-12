@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'メイリオ', Meiryo, sans-serif;
+}
+
+@media (max-width: 640px) {
+  .max-w-md {
+    max-width: 95%;
+  }
+}
